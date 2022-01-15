@@ -4,14 +4,13 @@ import {
   Text, 
   View 
 } from 'react-native'
+import RoootNavigator from './src/navigations/RootNavigator';
 
 import HomeScreen from './src/screens/HomeScreen'
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <HomeScreen />
-    </View>
+    <RoootNavigator />
   )
 }
 

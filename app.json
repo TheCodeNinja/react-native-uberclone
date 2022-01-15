@@ -30,13 +30,13 @@
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyCtPvOnKeXxwFA8CCr4R0W5780cdiNYoIY"
-        },
-        "permissions": [
-          "ACCESS_COARSE_LOCATION",
-          "ACCESS_FINE_LOCATION",
-          "FOREGROUND_SERVICE"
-        ]
-      }
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"

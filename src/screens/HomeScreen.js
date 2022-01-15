@@ -19,7 +19,7 @@ import * as Location from "expo-location";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
   const [latlng, setLatLng] = useState({});
 
   const checkPermission = async () => {
@@ -82,7 +82,7 @@ const HomeScreen = () => {
               </Text>
               <TouchableOpacity
                 onPress={() => {
-                  // navigation.navigate("RequestScreen", { state: 0 });
+                  navigation.navigate("RequestScreen", { state: 0 });
                 }}
               >
                 <View style={styles.btn}>
